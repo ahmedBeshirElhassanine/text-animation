@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: poppins;
+    
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+ }
+ .container h2{
+    font-size: 120px;
+    color: transparent;
+    margin: 0;
+    background-image: url(images/ahmed.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    transition: background-position 4s ease ;
+    text-transform: uppercase;
+ }
+ .container h2:hover{
+    background-position: 0 100%;
+ }
