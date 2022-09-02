@@ -1,2 +1,2 @@
 #text animation 
-text animation using html+css
+#text animation using html+css
